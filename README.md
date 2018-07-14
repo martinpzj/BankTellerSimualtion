@@ -1,6 +1,6 @@
 # BankTellerSimualtion
 Simulation of five bank teller lines that outputs customer's arrival time and departure time.
-Used a circular linked list queue written fron scratch 
+Used a circular linked list queue written from scratch 
 ## Run Commands:
 ```
 make
