@@ -3,7 +3,7 @@ class Node{
 	private String name;
 	private int arrivalTime;
 	private int transactionTime;
-	private Node next;
+	public Node next;
 
 	public Node(int tellerLine, String name, int arrivalTime, int transactionTime){
 		this.tellerLine = tellerLine;
@@ -17,7 +17,7 @@ class Node{
 		return tellerLine;
 	}
 
-	pubic String getName(){
+	public String getName(){
 		return name;
 	}
 
@@ -29,7 +29,4 @@ class Node{
 		return transactionTime;
 	}
 
-	public Node next(){
-		return next;
-	}
 }
